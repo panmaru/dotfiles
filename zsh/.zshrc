@@ -73,6 +73,9 @@ ZSH_CUSTOM=~/.zsh-custom
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 	git
+	sudo
+	extract
+	autojump
 	zsh-syntax-highlighting
 	zsh-autosuggestions
 )
@@ -109,4 +112,12 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # 默认编辑器
-export EDITOR='vim' 
+export EDITOR='vim'
+
+# autojump
+if [ -f /etc/os-release ]; then
+	if [[ $(grep -E '^ID=' /etc/os-release | cut -d'=' -f2) == 'debian' \
+		|| $(grep -E '^ID_LIKE=' /etc/os-release | cut -d'=' -f2) == 'debian' ]] ; then
+		source /usr/share/autojump/autojump.sh
+	fi
+fi
