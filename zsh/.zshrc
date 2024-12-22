@@ -111,6 +111,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# alias
+alias gcc="LANG=c gcc"
+alias g++="LANG=c g++"
+
 # 默认编辑器
 export EDITOR='vim'
 
