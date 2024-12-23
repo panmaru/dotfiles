@@ -1,0 +1,9 @@
+fcitx5-skin-fluentdark-git
+linuxqq
+paccache-hook
+ttf-ms-win11-auto
+ttf-ms-win11-auto-zh_cn
+ttf-wps-fonts
+tuxedo-yt6801-dkms-git
+wps-office-cn
+wps-office-mui-zh-cn
