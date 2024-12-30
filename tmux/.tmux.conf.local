@@ -447,6 +447,11 @@ bind -r C-l resizep -R 5
 
 bind -n M-v copy-mode
 
+# enable Yazi's image preview
+set -g allow-passthrough on
+set -ga update-environment TERM
+set -ga update-environment TERM_PROGRAM
+
 # -- tpm -----------------------------------------------------------------------
 
 # while I don't use tpm myself, many people requested official support so here

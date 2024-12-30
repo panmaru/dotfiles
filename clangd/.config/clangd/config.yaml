@@ -1,0 +1,7 @@
+CompileFlags:
+    Compiler: g++
+
+Diagnostics:
+    ClangTidy:
+        Add: [cppcoreguidelines*, modernize*, performance*]
+        FastCheckFilter: None
