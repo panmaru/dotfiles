@@ -131,3 +131,6 @@ function yy() {
 	fi
 	rm -f -- "$tmp"
 }
+
+# xclip
+alias xc='xclip -selection clipboard'
