@@ -1,9 +1,16 @@
+cppinsights
+fcitx5-pinyin-custom-pinyin-dictionary
+fcitx5-pinyin-sougou-dict-git
 fcitx5-skin-fluentdark-git
-linuxqq
+feishu-bin
+linuxqq-nt-bwrap
 paccache-hook
 ttf-ms-win11-auto
 ttf-ms-win11-auto-zh_cn
 ttf-wps-fonts
 tuxedo-yt6801-dkms-git
+visual-studio-code-bin
+watt-toolkit-bin
+wemeet-wayland-screenshare-git
 wps-office-cn
 wps-office-mui-zh-cn
