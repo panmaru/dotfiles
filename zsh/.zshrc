@@ -134,3 +134,9 @@ function yy() {
 
 # xclip
 alias xc='xclip -selection clipboard'
+
+# proxychains
+alias pcq='proxychains -q'
+
+# hibernate
+alias hib='systemctl hibernate'
