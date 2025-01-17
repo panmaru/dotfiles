@@ -138,5 +138,9 @@ alias xc='xclip -selection clipboard'
 # proxychains
 alias pcq='proxychains -q'
 
+# proxy
+alias setproxy='export http_proxy=socks5://localhost:7897 && export https_proxy=socks5://localhost:7897'
+alias unproxy='unset http_proxy && unset https_proxy'
+
 # hibernate
 alias hib='systemctl hibernate'
