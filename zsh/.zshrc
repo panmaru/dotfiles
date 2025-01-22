@@ -139,7 +139,7 @@ alias xc='xclip -selection clipboard'
 alias pcq='proxychains -q'
 
 # proxy
-alias setproxy='export http_proxy=socks5://localhost:7897 && export https_proxy=socks5://localhost:7897'
+alias setproxy='export http_proxy=https://127.0.0.1:7897 && export https_proxy=https://127.0.0.1:7897'
 alias unproxy='unset http_proxy && unset https_proxy'
 
 # hibernate
