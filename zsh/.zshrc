@@ -78,6 +78,7 @@ plugins=(
 	autojump
 	zsh-syntax-highlighting
 	zsh-autosuggestions
+	shell-proxy
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -138,9 +139,10 @@ alias xc='xclip -selection clipboard'
 # proxychains
 alias pcq='proxychains -q'
 
-# proxy
-alias setproxy='export http_proxy=https://127.0.0.1:7897 && export https_proxy=https://127.0.0.1:7897'
-alias unproxy='unset http_proxy && unset https_proxy'
+# shell-proxy
+SHELLPROXY_URL="http://127.0.0.1:7897"
+SHELLPROXY_NO_PROXY="localhost,127.0.0.1"
+proxy enable
 
 # hibernate
 alias hib='systemctl hibernate'
