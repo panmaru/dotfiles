@@ -146,3 +146,7 @@ proxy enable
 
 # hibernate
 alias hib='systemctl hibernate'
+
+# kitty with ssh
+# see https://wiki.archlinux.org/title/Kitty#Terminal_issues_with_SSH
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
