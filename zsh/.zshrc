@@ -142,7 +142,7 @@ alias pcq='proxychains -q'
 # shell-proxy
 SHELLPROXY_URL="http://127.0.0.1:7897"
 SHELLPROXY_NO_PROXY="localhost,127.0.0.1"
-proxy enable
+# proxy enable
 
 # hibernate
 alias hib='systemctl hibernate'
@@ -150,3 +150,7 @@ alias hib='systemctl hibernate'
 # kitty with ssh
 # see https://wiki.archlinux.org/title/Kitty#Terminal_issues_with_SSH
 [ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
+
+# vcpkg
+# use "git -C $VCPKG_ROOT pull" to manually update vcpkg
+export VCPKG_ROOT=$HOME/.local/share/vcpkg
